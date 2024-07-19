@@ -13,7 +13,8 @@ class FormLocators:
     BALANCE = (By.XPATH, "//strong[2]")
     WITHDRAWL_BUTTON = (By.XPATH, "//div[3]/button[3]")
     WITHDRAWL_FIELD = (
-    By.XPATH, "//label[text()='Amount to be Withdrawn :']/following-sibling::input[@placeholder='amount']")
+        By.XPATH, "//label[text()='Amount to be Withdrawn :']/following-sibling::input[@placeholder='amount']"
+    )
     WITHDRAWL_SUBMIT_BUTTON = (By.XPATH, "//form/button")
     TRANSACTION_BUTTON = (By.CSS_SELECTOR, "button[ng-click='transactions()']")
     ROWS = (By.CSS_SELECTOR, "tr[id^='anchor']")

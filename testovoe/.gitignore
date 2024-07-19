@@ -1,6 +1,7 @@
 ./venv
 .pytest_cache
 ./tests/.pytest_cache
+.gitignore
 failures
 venv
 .idea
